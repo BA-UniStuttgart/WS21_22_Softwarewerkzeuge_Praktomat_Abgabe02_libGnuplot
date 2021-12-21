@@ -1,0 +1,1 @@
+gcc -I ./include -g ./src/gnuplot.c -c && ar -rvs ./bin/libGnuplot.a gnuplot.o && ranlib ./bin/libGnuplot.a && rm  gnuplot.o
